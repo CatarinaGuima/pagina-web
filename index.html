@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web</title>
+</head>
+<body>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2>MENU</h2>
+    <ul>
+        <li><a href="#html">Sobre HTML</a></li>
+        <li><a href="#css">Sobre CSS</a></li>
+        <li><a href="#javaS">Sobre JavaScript</a></li>
+        <li><a href="#estrutura">Estrutura básica de um HTML</a></li>
+        <li><a href="#tags">Tags do HTML</a></li>
+        <li><a href="#links">Links de referências</a></li>
+    </ul>
+    <h2 id="html">HTML</h2> <a href="#inicio"><small>(Voltar)</small></a>
+    <p>
+    <strong>HTML</strong> <i>(abreviação para a expressão inglesa HyperText Markup Language, que significa: "Linguagem de Marcação de Hipertexto")</i> é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML. HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo. Um documento é visto como um conjunto de eventos concorrentes dependentes de tempo (como áudio, vídeo, etc.), conectados por <a href="https://pt.wikipedia.org/wiki/HTML" target="_blank">hiperligações</a><u>(em inglês: hyperlink e link)</u>. O padrão é independente de outros padrões de processamento de texto em geral. SGML é um padrão de formatação de textos. <mark>Não foi desenvolvido para hipertexto</mark>, mas tornou-se conveniente para transformar documentos em hiper-objetos e para descrever as ligações.
+    </p>
+    <h2 id="css">CSS</h2><a href="#inicio"><small>(Voltar)</small></a>
+    <p>
+    <strong>Cascading Style Sheets</strong> <i>(abreviado CSS)</i> é um mecanismo para adicionar estilos <mark>(cores, fontes, espaçamento, etc.)</mark> a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags style. Também é possível, adicionar estilos adicionando um <a href="https://pt.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">link para um arquivo CSS</a> que contém os estilos. Assim, quando se quiser alterar a aparência dos documentos vinculados a este arquivo CSS, basta modifica-lo. Com a variação de atualizações dos navegadores, o suporte ao CSS pode variar. A interpretação dos navegadores pode ser avaliada com o teste Acid2, que se tornou uma forma base de revelar quão eficiente é o suporte de CSS, fazendo com que a nova versão em desenvolvimento do Firefox seja totalmente compatível a ele, assim como o Opera já é. O Doctype informado, ou a ausência dele, determina o quirks mode ou o strict mode, <u>modificando o modo como o CSS é interpretado e a página desenhada.</u>
+    </p>
+    <h2 id="javaS">JavaScript</h2><a href="#inicio"><small>(Voltar)</small></a>
+    <p><strong>JavaScript</strong> <i>(frequentemente abreviado como JS)</i> é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma (protótipos, orientado a objeto, imperativo e funcional). Juntamente com HTML e CSS, <mark>o JavaScript é uma das três principais tecnologias da World Wide Web</mark>. JavaScript permite páginas da Web interativas e, portanto, é uma parte essencial dos aplicativos da web. A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo. <u>É atualmente a principal linguagem para programação client-side em navegadores web</u>. É também bastante utilizada do lado do servidor através de ambientes como o node.js. Como uma linguagem multiparadigma, o JavaScript suporta estilos de programação orientados a eventos, funcionais e imperativos (incluindo orientado a objetos e prototype-based), apresentando recursos como fechamentos (closures) e funções de alta ordem comumente indisponíveis em linguagens populares como Java e C++. Possui APIs para trabalhar com texto, matrizes, datas, expressões regulares e o DOM, mas a linguagem em si não inclui nenhuma E/S, como instalações de rede, armazenamento ou gráficos, contando com isso no ambiente host em que está embutido. Foi originalmente implementada como parte dos navegadores web para que scripts pudessem ser executados do lado do cliente e interagissem com o usuário sem a necessidade deste script passar pelo servidor, controlando o navegador, realizando comunicação assíncrona e alterando o conteúdo do documento exibido, porém os mecanismos JavaScript agora estão incorporados em muitos outros tipos de software host, incluindo em servidores e bancos de dados da Web e em programas que não são da Web, como processadores de texto e PDF, e em tempo de execução ambientes que disponibilizam JavaScript para escrever aplicativos móveis e de desktop, incluindo widgets de área de trabalho. Os termos Vanilla JavaScript e Vanilla JS se referem ao JavaScript não estendido por qualquer estrutura ou biblioteca adicional. Scripts escritos em Vanilla JS são códigos JavaScript simples. Embora existam semelhanças entre JavaScript e Java, incluindo o nome da linguagem, a sintaxe e as respectivas bibliotecas padrão, as duas linguagens são distintas e diferem muito no design; <a href="https://pt.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a> foi influenciado por linguagens de programação como Self e Scheme. É baseada em ECMAScript, padronizada pela Ecma international nas especificações ECMA-262 e ISO/IEC 16262.
+    </p>
+    <h2 id="estrutura">Estrutura básica do HTML</h2><a href="#inicio"><small>(Voltar)</small></a>
+    <p>Um documento HTML válido precisa seguir obrigatoriamente a estrutura composta pelas tags <mark>html, head e body e a instrução !DOCTYPE</mark>. Esta estrutura está informada em uma documentação que descreve todos os detalhes do HTML, no caso as tags e atributos, e como os navegadores devem considerar e interpretar estas tags, esta documentação é chamada de "especificação do HTML", e através do que está declarado nela que é possível entender se um documento HTML válido. Um documento HTML inválido é carregado pelo navegador, porém em um "modo de compatibilidade". A tag <strong>html</strong> na estrutura do nosso documento, antes de começar a colocar o conteúdo, inserimos uma tag html. Dentro dessa tag, é necessário declarar outras duas tags: head e body. Essas duas tags são "irmãs", pois estão no mesmo nível hierárquico em relação à sua tag "mãe", que é html. A tag <strong>head</strong> contém informações sobre o documento HTML que são de interesse somente do navegador e para outros serviços da web, e não para as pessoas que vão acessar nosso site. São informações que não serão exibidas diretamente no navegador, também podemos considerar um local onde informamos os metadados sobre a página. A especificação do HTML obriga a presença da tag de conteúdo title dentro da head, permitindo definir o título do documento, que poder ser visto na barra de título ou aba da janela do navegador. Caso contrário, a página não será um documento HTML válido. Outra configuração muito importante, <i>principalmente em documentos HTML cujo conteúdo é escrito em um idioma como o português, que contém caracteres "especiais" (acentos e cedilha), é a codificação/conjunto de caracteres, chamada de encoding ou charset</i>. Podemos configurar qual codificação queremos utilizar em nosso documento por meio da configuração de charset na tag meta. Um dos valores mais comuns usados hoje em dia é o UTF-8, também chamado de Unicode. Há outras possibilidades, como o latin1, muito usado antigamente. O UTF-8 é a recomendação atual para encoding na Web por ser amplamente suportada em navegadores e editores de código, além de ser compatível com praticamente todos os idiomas do mundo. A tag body contém o corpo de um documento HTML, que é exibido pelo navegador em sua janela, ou seja,<u> todo o conteúdo visível do site</u>. É necessário que o body tenha ao menos um elemento "filho", ou seja, uma ou mais tags HTML dentro dele. O DOCTYPE não é uma tag HTML, mas uma instrução especial. Ela indica para o navegador qual versão do HTML deve ser utilizada para exibir a página. Quando não colocamos essa instrução a página é exibida numa espécie de "modo de compatibilidade" na qual algumas tags e estilizações não funcionam 100% corretamente. Principalmente as tags e estilizações mais atuais (lançadas na versão 5 do HTML). Inclusive é possível ver a diferença na folha de estilos padrão que o navegador usa quando não colocamos essa instrução. A imagem da esquerda é a página sem Doctype e a imagem da direita é a página com Doctype. Dá para ver que existe uma leve diferença entre as duas páginas, principalmente com relação aos espaçamentos.Utilizaremos !DOCTYPE html, que indica para o navegador a utilização da versão mais recente do HTML - <a href="https://medium.com/@eduagni/html5-entendendo-a-estrutura-e-a-sem%C3%A2ntica-db5f17808c7" target="_blank">a versão 5, atualmente</a>. Há muitas possibilidades mais complicadas nessa parte de DOCTYPE que eram usados em versões anteriores do HTML e do XHTML. Hoje em dia, nada disso é mais importante. O recomendado é sempre usar a última versão do HTML, usando a declaração de DOCTYPE simples.
+    </p>
+    <h2 id="tags">Tags do HTML</h2><a href="#inicio"><small>(Voltar)</small></a>
+    <p>O HTML5 assim como qualquer outra linguagem ao ser atualizada, além de receber novo comandos, aposenta outros. Dessa forma, você pode acompanhar abaixo, <a href="https://www.devmedia.com.br/comandos-e-tags-html5/23618" target="_blank">as tags que permanecem em uso no HTML5 e as tags que foram descontinuadas e só servem para as versões anteriores</a>.
+<br>
+<mark>Tags Continuadas:</mark>
+<br>
+<i>a</i> Define um hyperlink;
+<i>abbr</i> Define uma abreviação
+<i>address</i> Define um endereço. (Passa a ser tratado como uma seção);
+<i>area</i> Define uma área dentro de um mapa de imagem;
+<i>b</i> Define um texto em negrito; (Possui o mesmo nível semântico que um SPAN, e também o estilo de negrito no texto. Contudo, ele não dá nenhuma importância para o texto marcado com ele.)
+<i>base</i> Define uma base URL para todos os links da página;
+<i>bdo</i> Define a direção do texto apresentado;
+<i>blockquote</i> Define uma citação longa;
+<i>body</i> Define o corpo da página;
+<i>br</i> Insere uma quebra de linha simples;
+<i>button</i> Define um botão de comando;
+<i>caption</i> Define o "caption" de uma tabela;
+<i>cite</i> Define uma citação;
+<i>code</i> Define o código texto do computador;
+<i>col</i> Define os atributos da coluna da tabela;
+<i>colgroup</i> Define um grupo de colunas da tabela;
+<i>dd</i> Define uma descrição de definição;
+<i>del</i> Define um texto deletado;
+<i>dfn</i> Define um termo de definição;
+<i>div</i> Define uma seção no documento;
+<i>dl</i> Define uma lista de definição;
+<i>dt</i> Define um termo de definição;
+<i>em</i> Define um texto em ênfase;
+<i>fieldset</i> Define um conjunto de campos (fieldset);
+<i>form</i> Define um formulário;
+<i>h1</i> até >h6> Define do cabeçalho 1 até o cabeçalho 6;
+<i>head</i> Define uma informação sobre o documento. (Não aceita mais elementos Child como filho);
+<i>hr</i> Define uma regra horizontal. (Tem o mesmo nível que um parágrafo, mas também é utilizado para fazer separações e quebras de linha);
+<i>html</i> Define um documento html;
+<i>i</i> Define um texto em itálico; (Possui o mesmo nível semântico que um SPAN. O texto continua sendo itálico e para usuários de leitores de tela, a voz utilizada é modificada para indicar ênfase. É de grande valor e utilidade para marcar, termos técnicos, termos em outras linguagens etc.)
+<i>iframe</i> Define uma linhas sobre a janela (frame);
+<i>img</i> Define uma imagem;
+<i>input</i> Define um campo de inserção;
+<i>ins</i> Define um texto inserido;
+<i>kbd</i> Define um texto do teclado;
+<i>label</i> Define uma "label" para o formulário;
+<i>legend</i> Define um título para os campos (fields);
+<i>li</i> Define os itens da lista;
+<i>link</i>Define uma referência;
+<i>map</i> Define uma imagem de mapa;
+<i>menu</i> Define uma lista de "menus";
+<i>meta</i> Define informações meta;
+<i>noscript</i> Define uma seção noscript;
+<i>object</i> Define um objeto incorporado;
+<i>ol</i> Define uma lista ordenada;
+<i>optgroup</i> Define um grupo de opção;
+<i>option</i> Define uma opção em uma lista suspensa (drop-down list);
+<i>p</i> Define um parágrafo;
+<i>param</i> Define um parâmetro para determinado objeto;
+<i>pre</i> Define um texto pré-formatado;
+<i>q</i> Define uma citação curta;
+<i>s</i> Define um texto que não é mais correto.
+<i>samp</i> Define um código de amostra;
+<i>script</i> Define um script;
+<i>select</i> Define uma lista selecionável;
+<i>small</i> Define um pequeno texto;
+<i>span</i> Define uma seção no documento;
+<i>strong</i> Define um texto forte (similar ao negrito);
+<i>style</i> Define um estilo;
+<i>sub</i> Define um texto subscrito;
+<i>sup</i> Define um texto sobrescrito;
+<i>table</i> Define uma tabela;
+<i>tbody</i> Define o corpo da tabela;
+<i>td</i> Define uma célula da tabela;
+<i>textarea</i> Define um área de texto;
+<i>tfoot</i> Define o rodapé da tabela;
+<i>th</i> Define o cabeçalho da tabela;
+<i>thead</i> Define o cabeçalho da tabela;
+<i>title</i> Define o título do documento;
+<i>tr</i> Define uma linha da tabela;
+<i>ul</i> Define uma lista desordenada;
+<i>var</i> Define uma variável;
+<br>
+<mark>Tags Descontinuadas:</mark>
+<br>
+<u>acronym</u> Define siglas em HTML 4.01. (Desenvolvedores preferem utilizar a tag abbr);
+<u>applet</u> Define um miniaplicativo incorporado. (Ficou obsoleto em função da tag object);
+<u>basefont</u> Define as propriedads da font padrão para todo o texto do documento. (Apenas efeito visual);
+<u>big</u> Usado para tornar o texto maior. (Apenas efeito visual);
+<u>center</u>Usado para alinhar texto e conteúdo no centro. (Apenas efeito visual);
+<u>dir</u> Define a lista do diretório. (Ficou obsoleto em função da Tag ul);
+<u>font</u> Especifica o tipo de fonte, tamanho, e cor do texto. (Apenas efeito visual);
+<u>frame</u> Define uma janela particular dentro de um conjunto de "frames". (Fere princípios de usabilidade e acessibilidade);
+<u>frameset</u> Define um conjunto de frames organizado por múltiplas janelas.(Fere princípios de usabilidade e acessibilidade);
+<u>noframes</u> Texto exibido para navegadores que não lidam com "frames". (Fere princípios de usabilidade e acessibilidade);
+<u>strike</u> Exibe texto rasurado. (Apenas efeito visual);
+<u>tt</u> Define teletipo de texto. (Apenas efeito visual);
+<u>xmp</u> Define texto pré-formatado. (Ficou obsoleto em função da tag pre); 
+<br>
+<strong>Se analisarmos bem as definições podemos perceber que muitas tags descontinuadas tiveram esse fim por já existirem tags que realizam a mesma função. E ao utilizar o HTML 5 você perceberá que algumas tags continuadas foram modificadas e passaram a exercer outras propriedades, fazendo, também, que outras tags percam valor.</strong>
+</p>
+    <h2 id="links">Links de referências</h2><a href="#inicio"><small>(Voltar)</small></a>
+    <p><strong><u>Importante:</u> </strong>Páginas para consulta.</p>
+    <ul>
+        <li><a href="https://developer.mozilla.org/pt-BR/" target="_blank">Mozilla</a></li>
+        <li><a href="https://www.w3schools.com/" target="_blank" >w3schools</a></li>
+    </ul>
+</body>
+</html>
